@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
-* Студент: [Даниил Кметь](https://up.htmlacademy.ru/adaptive/24/user/237031).
-* Наставник: `Неизвестно`.
+- Студент: [Даниил Кметь](https://up.htmlacademy.ru/adaptive/24/user/237031).
+- Наставник: [Александр Карташов](https://htmlacademy.ru/profile/id77080).
 
 ---
 
