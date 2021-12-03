@@ -1,0 +1,36 @@
+$basic-white: #ffffff;
+$basic-black: #000000;
+$basic-green: #68b738;
+$basic-grey: #666666;
+$basic-silver: #c4c4c4;
+$basic-red: #ff8282;
+$spacial-dark-grey: #444444;
+$extra-dark-grey: #222222;
+$light-grey: #eaeaea;
+$extra-light-grey: #e7e7e7;
+
+html {
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  clip: rect(0 0 0 0);
+}
