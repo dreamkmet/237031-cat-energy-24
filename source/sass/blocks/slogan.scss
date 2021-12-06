@@ -1,0 +1,47 @@
+
+.slogan__background {
+  padding: 27px 20px 20px 20px;
+
+  background-image:
+    url("../../img/slogan-background.svg"),
+    url("../../img/slogan-image.png");
+  background-repeat: no-repeat;
+}
+
+.slogan__title {
+  margin-top: 0;
+  margin-bottom: 25px;
+
+  font-family: $accent-font;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: $basic-white;
+}
+
+.slogan__text {
+  margin-bottom: 29px;
+
+  font-family: $accent-font;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: $basic-white;
+}
+
+.slogan__link {
+  display: block;
+  padding: 15px 60px;
+
+  font-family: $accent-font;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $basic-white;
+  background-color: $basic-green;
+}

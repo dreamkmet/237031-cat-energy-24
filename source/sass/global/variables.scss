@@ -9,8 +9,11 @@ $extra-dark-grey: #222222;
 $light-grey: #eaeaea;
 $extra-light-grey: #e7e7e7;
 
+$accent-font: "Oswald", "Arial", sans-serif;
+
 html {
   height: 100%;
+  box-sizing: border-box;
 }
 
 *,

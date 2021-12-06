@@ -8,29 +8,30 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header">
-    <a class="page-header__logo" href="index.html">
-      <img src="img/logo.svg" width="202" height="59" alt="Cat energy logo.">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item">
-            <a class="site-list__link" href="index.html">Главная</a>
-          </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="catalog.html">Каталог продукции</a>
-          </li>
-          <li class="site-list__item site-list__item--active">
-            <a class="site-list__link " href="form.html">Подбор программы</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <div class="page__container">
+    <header class="page-header">
+      <a class="page-header__logo" href="index.html">
+        <img src="img/logo.svg" width="202" height="59" alt="Cat energy logo.">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a class="site-list__link" href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="catalog.html">Каталог продукции</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a class="site-list__link " href="form.html">Подбор программы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   <main class="page-main">
     <section class="page-main__questionnaire questionnaire">
       <h2 class="questionnaire__title">Подбор программы</h2>
@@ -95,7 +96,8 @@
           <ul class="additionally__list additionally-list">
             <li class="additionally-list__item">
               <label class="control">
-                <input class="visually-hidden control__input" type="checkbox" name="additionally" value="sweetener" checked>
+                <input class="visually-hidden control__input" type="checkbox" name="additionally" value="sweetener"
+                  checked>
                 <span class="control__mark"></span>
                 <span class="control__label">сахарозаменитель</span>
               </label>
@@ -125,7 +127,7 @@
         </fieldset>
         <button class="form__button button" type="submit">отправить заявку</button>
         <p class="form__text">* — Обязательные поля</p>
-        </form>
+      </form>
     </section>
   </main>
   <footer class="page-footer">
@@ -209,5 +211,6 @@
     </div>
 
   </footer>
+  </div>
 </body>
 </html>
