@@ -1,0 +1,57 @@
+.programs__wrapper {
+  margin: 0;
+  padding: 20px 20px 0 20px;
+}
+
+.programs__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.programs__item {
+  margin-bottom: 20px;
+  padding: 33px 33px 16px 40px;
+}
+
+.programs__item:nth-child(2) {
+  padding-right: 50px;
+}
+
+.programs__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-family: $accent-font;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  color: $basic-black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.programs__description {
+  margin-bottom: 37px;
+
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $spacial-dark-grey;
+}
+
+.programs__link {
+  position: relative;
+
+  display: block;
+
+  font-family: $accent-font;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $basic-black;
+  text-transform: uppercase;
+  text-decoration: none;
+}

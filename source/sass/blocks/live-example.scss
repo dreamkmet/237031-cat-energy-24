@@ -1,0 +1,38 @@
+.live-example__wrapper {
+  width: 280px;
+  margin: 0 auto;
+  padding: 25px 20px 40px 20px;
+}
+
+.live-example__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  font-family: $accent-font;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  color: $basic-black;
+}
+
+.live-example__description {
+  margin-bottom: 20px;
+
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $spacial-dark-grey;
+}
+
+.live-example__range-toggle {
+  font-family: $accent-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: $basic-black;
+
+  border: none;
+}
