@@ -11,30 +11,3 @@ $light-grey: #eaeaea;
 $extra-light-grey: #e7e7e7;
 
 $accent-font: "Oswald", "Arial", sans-serif;
-
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: none;
-  clip: rect(0 0 0 0);
-}
