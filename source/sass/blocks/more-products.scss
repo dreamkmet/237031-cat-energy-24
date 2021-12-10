@@ -1,0 +1,34 @@
+.more-products__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+
+  font-family: $accent-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: $spacial-dark;
+}
+
+.more-products__text {
+  margin-bottom: 20px;
+
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: $spacial-dark-grey;
+}
+
+.more-products__button {
+  padding: 10px 55px;
+
+  font-family: $accent-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $spacial-dark-grey;
+  text-transform: uppercase;
+  text-align: center;
+}
