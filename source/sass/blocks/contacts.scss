@@ -1,3 +1,10 @@
+.contacts {
+  background-color: #ffffff;
+  &--background {
+    background-color: $footer-background-color;
+  }
+}
+
 .contacts__wrapper {
   width: 320px;
   justify-content: space-between;

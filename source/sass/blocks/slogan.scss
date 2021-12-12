@@ -1,9 +1,11 @@
+.slogan {
+  background-color: $basic-white;
+}
 
 .slogan__background {
   padding: 27px 20px 20px 20px;
 
-  background-image:
-    url("../../img/slogan-background.svg"),
+  background-image: url("../../img/slogan-background.svg"),
     url("../../img/slogan-image.png");
   background-repeat: no-repeat;
 }
