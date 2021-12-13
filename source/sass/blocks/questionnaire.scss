@@ -1,0 +1,27 @@
+.questionnaire {
+  padding: 0 20px;
+
+  background-color: $basic-white;
+}
+
+.questionnaire__title {
+  margin-top: 0;
+  margin-bottom: 37px;
+
+  font-family: $accent-font;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: $basic-black;
+}
+
+.questionnaire__description {
+  margin-bottom: 39px;
+
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $basic-black;
+  text-transform: uppercase;
+}
