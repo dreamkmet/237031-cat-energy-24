@@ -35,12 +35,16 @@
   text-transform: uppercase;
 }
 
+.form__label:nth-child(2) .form__input {
+  width: 226px;
+}
+
 .form__label:nth-child(3) .form__input {
-  width: 198px;
+  width: 205px;
 }
 
 .form__label:nth-child(4) .form__input {
-  width: 152px;
+  width: 171px;
 }
 
 .form__contacts {
