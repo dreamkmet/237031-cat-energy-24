@@ -1,0 +1,27 @@
+.example-cost {
+  display: flex;
+  justify-self: flex-start;
+  margin-bottom: 40px;
+}
+
+.example-cost__accent {
+  margin: 0;
+
+  font-family: $accent-font;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400px;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.example-cost__sum {
+  margin-left: 1px;
+
+  font-family: $accent-font;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400px;
+  text-transform: uppercase;
+  color: $basic-black;
+}

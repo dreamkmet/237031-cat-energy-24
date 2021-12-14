@@ -1,0 +1,26 @@
+.product-description {
+  margin-bottom: 13px;
+}
+
+.product-description__feature {
+  display: block;
+  width: 36px;
+  margin-top: 0;
+  margin-bottom: 2px;
+
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.product-description__value {
+  margin-bottom: 2px;
+
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $spacial-dark-grey;
+}

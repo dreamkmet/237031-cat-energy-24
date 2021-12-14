@@ -1,0 +1,17 @@
+.bonus__wrapper {
+  padding: 186px 50px 43px 50px;
+
+  background-image:
+    url("../../img/slogan-background.svg"),
+    url("../../img/bonus-product-background-image.png");
+  background-repeat: no-repeat;
+}
+
+.bonus__title {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: $basic-white;
+}

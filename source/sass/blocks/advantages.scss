@@ -1,0 +1,35 @@
+.advantages {
+  margin-bottom: 50px;
+
+  background-color: $basic-white;
+}
+
+.advantages__wrapper {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.advantages__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  font-family: $accent-font;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  color: $basic-black;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages__text {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $spacial-dark-grey;
+}

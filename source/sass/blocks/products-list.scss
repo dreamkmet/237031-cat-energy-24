@@ -1,0 +1,43 @@
+.products-list {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+  list-style: none;
+}
+
+.products-list__title {
+  margin-top: 0;
+  margin-bottom: 13px;
+
+  font-family: $accent-font;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $spacial-dark-grey;
+  text-transform: uppercase;
+}
+
+.products-list__quantity {
+  margin-bottom: 15px;
+
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: $spacial-dark-grey;
+}
+
+.products-list__button {
+  margin-bottom: 19px;
+  padding: 10px 74px;
+
+  font-family: $accent-font;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: $basic-white;
+
+  background-color: $basic-green;
+}
