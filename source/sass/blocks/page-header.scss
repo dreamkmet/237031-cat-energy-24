@@ -1,4 +1,11 @@
 .page-header {
+  display: flex;
+  flex-direction: column;
   padding: 10px 20px 18px 20px;
+
   background-color: $basic-white;
+}
+
+.page-header__logo {
+  height: 65px;
 }

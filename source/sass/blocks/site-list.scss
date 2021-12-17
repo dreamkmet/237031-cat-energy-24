@@ -16,6 +16,15 @@
   text-decoration: none;
 }
 
+@media (min-width: $tablet-width) {
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
 .site-list__item {
   margin-bottom: 46px;
 }
