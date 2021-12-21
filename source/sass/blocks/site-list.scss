@@ -17,11 +17,20 @@
 }
 
 @media (min-width: $tablet-width) {
-  .main-nav__wrapper {
+  .site-list {
     display: flex;
     justify-content: space-between;
-    width: 600px;
-    margin: 0 auto;
+    width: 500px;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    display: flex;
+    justify-content: space-between;
+    width: 546px;
+    margin-left: auto;
   }
 }
 
