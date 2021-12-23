@@ -5,8 +5,10 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 122px;
+    margin-left: auto;
   }
 }
 

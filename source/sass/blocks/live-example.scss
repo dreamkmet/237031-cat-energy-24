@@ -3,6 +3,8 @@
   padding: 25px 20px 40px 20px;
 
   @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
     width: 768px;
     padding: 43px 30px 0 30px;
   }
