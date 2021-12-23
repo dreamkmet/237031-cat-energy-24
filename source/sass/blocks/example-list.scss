@@ -1,7 +1,22 @@
 .example-list {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   margin-bottom: 20px;
   padding: 15px 20px 0 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 366px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 366px;
+  }
+}
+
+.example-list__item {
+  display: flex;
+  flex-direction: column;
 }
 
 .example-list__value {
@@ -16,6 +31,7 @@
 }
 
 .example-list__description {
+  margin: 0;
   font-family: inherit;
   font-size: 12px;
   line-height: 12px;

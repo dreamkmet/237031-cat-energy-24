@@ -2,6 +2,12 @@
   display: flex;
   justify-self: flex-start;
   margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 122px;
+  }
 }
 
 .example-cost__accent {
@@ -24,4 +30,9 @@
   font-weight: 400px;
   text-transform: uppercase;
   color: $basic-black;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    margin-left: auto;
+  }
 }
