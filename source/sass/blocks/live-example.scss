@@ -10,6 +10,9 @@
   }
 
   @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 1440px;
     padding: 0 108px 0 110px;
   }
@@ -30,6 +33,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    width: 325px;
     margin-bottom: 76px;
   }
 }
@@ -42,6 +46,10 @@
   line-height: 18px;
   font-weight: 400;
   color: $spacial-dark-grey;
+
+  @media (min-width: $desktop-width) {
+    width: 436px;
+  }
 }
 
 .live-example__range-toggle {
@@ -54,4 +62,10 @@
   color: $basic-black;
 
   border: none;
+}
+
+.live-example__photo {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
