@@ -20,6 +20,14 @@
     width: 768px;
     padding: 60px 70px 63px 70px;
   }
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 585px;
+    padding: 56px 80px 56px 80px;
+  }
 }
 
 .contacts__title {
