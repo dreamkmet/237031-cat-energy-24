@@ -8,6 +8,7 @@
 }
 
 .page-footer__map-image {
+  display: block;
   border: none;
   width: 100%;
 
@@ -17,6 +18,12 @@
 
   @media (min-width: $desktop-width) {
     height: 400px;
+  }
+}
+
+.page-footer__map {
+  @media (min-width: $desktop-width) {
+    position: relative;
   }
 }
 
