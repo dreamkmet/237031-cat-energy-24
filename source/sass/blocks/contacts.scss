@@ -6,6 +6,10 @@
   }
 }
 
+.contacts__position {
+  position: relative;
+}
+
 .contacts__wrapper {
   justify-content: space-between;
   display: flex;
@@ -21,12 +25,18 @@
     padding: 60px 70px 63px 70px;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 50px;
+    left: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 585px;
     padding: 56px 80px 56px 80px;
+    z-index: 1;
+
+    background-color: $basic-white;
   }
 }
 

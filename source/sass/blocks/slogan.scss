@@ -33,6 +33,10 @@
   @media (min-width: $tablet-width) {
     padding: 62px 237px 20px 117px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 111px 0 54px 190px;
+  }
 }
 
 .slogan__title {

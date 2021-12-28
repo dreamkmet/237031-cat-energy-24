@@ -1,3 +1,8 @@
+.live-example {
+  background-color: $footer-background-color;
+  background-size: 100%;
+}
+
 .live-example__wrapper {
   width: 280px;
   padding: 25px 20px 40px 20px;
@@ -11,6 +16,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    position: relative;
     display: grid;
     flex-direction: column;
     flex-wrap: wrap;
@@ -70,7 +76,7 @@
   @media (min-width: $desktop-width) {
     position: absolute;
     left: 50%;
-    top: 1300px;
+    top: 0;
     right: 0;
     display: flex;
   }
@@ -80,7 +86,8 @@
   @media (min-width: $desktop-width) {
     position: absolute;
     left: 50%;
-    top: 1550px;
+    top: 225px;
+    bottom: 0;
     right: 0;
     display: flex;
     justify-content: space-between;
