@@ -2,8 +2,10 @@
   background-color: $basic-white;
 }
 
-@media (min-width: $desktop-width) {
-  .catalog__inner {
+.catalog__inner {
+  position: relative;
+
+  @media (min-width: $desktop-width) {
     position: relative;
     padding: 0 90px 75px 90px;
     margin: 0;

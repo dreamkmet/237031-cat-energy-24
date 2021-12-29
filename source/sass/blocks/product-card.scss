@@ -13,6 +13,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 245px;
+    padding: 0 38px 40px  39px;
   }
 }
 
@@ -51,4 +52,9 @@
   color: $basic-white;
 
   background-color: $basic-green;
+
+  @media (min-width: $desktop-width) {
+    height: 40px;
+    padding: 10px;
+  }
 }

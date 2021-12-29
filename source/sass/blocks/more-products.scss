@@ -33,11 +33,17 @@
   text-align: center;
 }
 
-@media (min-width: $desktop-width) {
-  .more-products {
+.more-products {
+  @media (min-width: $desktop-width) {
     position: absolute;
-    top: 76%;
-    left: 77%;
+    top: 74%;
+    left: 76%;
     width: 245px;
+  }
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
   }
 }
