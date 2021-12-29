@@ -1,10 +1,12 @@
 .button {
   display: inline-block;
   box-sizing: border-box;
+  width: 100%;
 
   font-family: inherit;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 
   border: none;
   cursor: pointer;
