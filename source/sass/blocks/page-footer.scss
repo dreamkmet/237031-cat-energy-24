@@ -28,17 +28,18 @@
 }
 
 .page-footer__bottom-wrapper {
+  width: 320px;
+  margin: 0 auto;
+
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
     width: 768px;
-    padding: 62px 31px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
     width: 1440px;
-    padding: 57px 110px 10px 110px;
   }
 }

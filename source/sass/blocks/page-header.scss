@@ -7,19 +7,18 @@
 
 .page-header__container {
   position: relative;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
     width: 728px;
-    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
-    width: 1230px;
-    margin: 0 auto;
+    width: 1221px;
   }
 }
 

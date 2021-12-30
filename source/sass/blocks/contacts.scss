@@ -14,8 +14,7 @@
   justify-content: space-between;
   display: flex;
   width: 320px;
-  padding: 26px 20px;
-  margin: 0;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -47,6 +46,7 @@
   font-weight: 400;
   color: $spacial-dark;
   text-transform: uppercase;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     width: 163px;
@@ -57,13 +57,13 @@
 }
 
 .contacts__address {
-  margin-left: 20px;
 
   font-family: inherit;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
   color: $spacial-dark-grey;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     width: 155px;

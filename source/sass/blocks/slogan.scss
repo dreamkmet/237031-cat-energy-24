@@ -3,22 +3,17 @@
 }
 
 .slogan__container {
+  width: 320px;
+  margin: 0 auto;
+
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
     width: 728px;
   }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    width: 1230px;
-  }
 }
 
 .slogan__background {
-  display: flex;
-  flex-direction: column;
   padding: 27px 20px 20px 20px;
   background-image: url("../../img/slogan-background.svg"),
     url("../../img/slogan-image.png");
@@ -35,7 +30,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 111px 0 54px 190px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1335px;
   }
 }
 

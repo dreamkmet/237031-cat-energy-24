@@ -5,6 +5,7 @@
 .programs__wrapper {
   padding: 20px 20px 0 20px;
   width: 320px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     width: 768px;
@@ -13,6 +14,7 @@
 
   @media (min-width: $desktop-width) {
     width: 1440px;
+    margin: 0 auto;
     padding: 82px 110px 71px 110px;
   }
 }
@@ -40,6 +42,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   padding: 33px 33px 16px 40px;
+  margin-bottom: 20px;
 
   background-color: $silver-background-color;
 
