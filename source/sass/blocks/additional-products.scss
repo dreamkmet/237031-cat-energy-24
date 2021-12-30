@@ -8,4 +8,29 @@
   font-weight: 400;
   color: $basic-black;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: start;
+
+    &.additional-products__title::after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      right: 0;
+      width: 328px;
+      border: 2px solid $basic-green;
+      transform: rotate(-0.17deg);
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .additional-products__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }

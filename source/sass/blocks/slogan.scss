@@ -2,26 +2,64 @@
   background-color: $basic-white;
 }
 
+.slogan__container {
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 728px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+  }
+}
+
 .slogan__background {
   padding: 27px 20px 20px 20px;
-
   background-image: url("../../img/slogan-background.svg"),
     url("../../img/slogan-image.png");
   background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    background: none;
+  }
+}
+
+.slogan__inner {
+  @media (min-width: $tablet-width) {
+    padding: 62px 237px 20px 117px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1335px;
+  }
 }
 
 .slogan__title {
+  display: flex;
+  justify-self: flex-start;
   margin-top: 0;
   margin-bottom: 25px;
 
   font-family: $accent-font;
   font-size: 36px;
   line-height: 36px;
-  text-align: center;
   color: $basic-white;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: $basic-black;
+  }
 }
 
 .slogan__text {
+  display: flex;
   margin-bottom: 29px;
 
   font-family: $accent-font;
@@ -29,12 +67,20 @@
   line-height: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  text-align: center;
   color: $basic-white;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $basic-black;
+  }
 }
 
 .slogan__link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  width: 280px;
   padding: 15px 60px;
 
   font-family: $accent-font;
@@ -46,4 +92,16 @@
   text-decoration: none;
   color: $basic-white;
   background-color: $basic-green;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-self: flex-start;
+    width: 244px;
+    justify-content: center;
+    padding: 14px 26px;
+  }
+}
+
+.slogan__image {
+  display: block;
 }

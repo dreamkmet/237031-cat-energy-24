@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: Кэт энерджи</title>
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="page__body">
-  <div class="page__container">
-    <header class="page-header">
+  <header class="page-header">
+    <div class="page-header__container">
       <a class="page-header__logo" href="index.html">
         <img src="img/logo.svg" width="202" height="59" alt="Cat energy logo.">
       </a>
@@ -31,18 +32,23 @@
           </ul>
         </div>
       </nav>
-    </header>
+    </div>
+  </header>
   <main class="page-main">
 
     <section class="slogan">
-      <div class="slogan__background">
-        <h1 class="visually-hidden">Питание для котов</h1>
-        <p class="slogan__title">Функциональное питание для котов
-        </p>
-        <p class="slogan__text">Занялся собой? Займись котом!</p>
-        <img class="slogan__image" src="img/slogan.png" width="280" height="270" alt="Корм с курицей.">
+      <div class="slogan__container">
+        <div class="slogan__background">
+          <div class="slogan__inner">
+            <h1 class="visually-hidden">Питание для котов</h1>
+            <p class="slogan__title">Функциональное<br> питание для котов
+            </p>
+            <p class="slogan__text">Занялся собой? Займись котом!</p>
+            <img class="slogan__image" src="img/slogan.png" width="280" height="270" alt="Корм с курицей.">
+            <a class="slogan__link" href="form.html">Подобрать программу</a>
+          </div>
+        </div>
       </div>
-      <a class="slogan__link" href="form.html">Подобрать программу</a>
     </section>
 
     <section class="programs">
@@ -100,19 +106,24 @@
           часов в день.
         </p>
         <dl class="live-example__list example-list">
-          <dt class="example-list__value">5 КГ</dt>
-          <dd class="example-list__description">снижение веса</dd>
-          <dt class="example-list__value">60 ДНЕЙ</dt>
-          <dd class="example-list__description">затрачено времени</dd>
+          <div class="example-list__item">
+            <dt class="example-list__value">5 КГ</dt>
+            <dd class="example-list__description">снижение веса</dd>
+          </div>
+          <div class="example-list__item">
+            <dt class="example-list__value">60 ДНЕЙ</dt>
+            <dd class="example-list__description">затрачено времени</dd>
+          </div>
         </dl>
         <div class="live-example__cost example-cost">
           <p class="example-cost__accent">Затраты на питание:
           </p>
           <span class="example-cost__sum">15 000 РУБ.</span>
         </div>
+        <div clas="live-example__slider">
         <div class="live-example__photo">
-          <img class="live-example__photo-thick" src="img/slides/cat-thick.jpg" alt="Толстый кот">
-          <img class="live-example__photo-thin" src="img/slides/cat-thin.jpg" alt="Похудевший кот">
+          <img class="live-example__photo-thick" src="img/slides/cat-thick.png" alt="Толстый кот">
+          <img class="live-example__photo-thin" src="img/slides/cat-thin.png" alt="Похудевший кот">
         </div>
         <div class="live-example__range">
           <div class="live-example__range-bar">
@@ -121,6 +132,7 @@
             <button class="live-example__range-toggle" type="button">стало</button>
           </div>
         </div>
+      </div>
       </div>
     </section>
 
@@ -132,12 +144,12 @@
           <h3 class="visually-hidden">Сотрудничество и наши контакты</h3>
           <p class="contacts__title">приглашаем<br> к сотрудничеству дилеров!
           </p>
-          <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+          <p class="contacts__address">ул. Большая<br> Конюшенная, д. 19/8 Санкт-Петербург
           </p>
         </div>
       </div>
       <div class="page-footer__map">
-        <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.629461548045!2d30.32322444236962!3d59.93829048456305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1638036275535!5m2!1sru!2sru"
+        <iframe class="page-footer__map-image" src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.629461548045!2d30.32322444236962!3d59.93829048456305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1638036275535!5m2!1sru!2sru"
           allowfullscreen="" loading="lazy">
         </iframe>
       </div>
@@ -209,7 +221,6 @@
     </div>
 
   </footer>
-  </div>
 </body>
 
 </html>

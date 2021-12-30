@@ -1,4 +1,6 @@
 .page__body {
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
   min-width: 320px;
   margin: 0;
@@ -10,10 +12,5 @@
   font-weight: 400;
   color: $spacial-dark-grey;
 
-  background-color: #e5e5e5;
-}
-
-.page__container {
-  width: 320px;
-  margin: 0 auto;
+  background-color: $basic-white;
 }

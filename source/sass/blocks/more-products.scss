@@ -22,7 +22,7 @@
 }
 
 .more-products__button {
-  padding: 10px 55px;
+  padding: 12px 45px;
 
   font-family: $accent-font;
   font-size: 16px;
@@ -31,4 +31,19 @@
   color: $spacial-dark-grey;
   text-transform: uppercase;
   text-align: center;
+}
+
+.more-products {
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 74%;
+    left: 76%;
+    width: 245px;
+  }
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+  }
 }

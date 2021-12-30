@@ -1,5 +1,26 @@
 .product-card {
   padding: 11px 20px 14px 20px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 324px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 245px;
+    padding: 0 38px 40px  39px;
+  }
+}
+
+.product-card:nth-child(7) {
+  @media (min-width: $desktop-width) {
+    margin-right: 325px;
+  }
 }
 
 .product-card__image-link {
@@ -19,7 +40,7 @@
 }
 
 .product-card__button {
-  display: inline-block;
+  display: block;
   padding: 10px 80px;
 
   font-family: $accent-font;
@@ -31,4 +52,9 @@
   color: $basic-white;
 
   background-color: $basic-green;
+
+  @media (min-width: $desktop-width) {
+    height: 40px;
+    padding: 10px;
+  }
 }

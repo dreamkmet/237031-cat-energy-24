@@ -2,6 +2,21 @@
   display: flex;
   justify-self: flex-start;
   margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 122px;
+    margin-left: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 520px;
+    margin-left: 0;
+  }
 }
 
 .example-cost__accent {
@@ -24,4 +39,14 @@
   font-weight: 400px;
   text-transform: uppercase;
   color: $basic-black;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    margin-left: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    margin: 0;
+  }
 }

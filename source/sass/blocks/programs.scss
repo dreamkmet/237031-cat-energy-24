@@ -3,27 +3,71 @@
 }
 
 .programs__wrapper {
-  margin: 0;
   padding: 20px 20px 0 20px;
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    padding: 0 30px 0 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 82px 110px 71px 110px;
+  }
 }
 
 .programs__list {
   margin: 0;
   padding: 0;
-
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 .programs__item {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   padding: 33px 33px 16px 40px;
+  margin-bottom: 20px;
 
   background-color: $silver-background-color;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    margin-bottom: 0;
+  }
 }
 
 .programs__item:nth-child(2) {
   padding-right: 50px;
-  margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 45px;
+    padding-right: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+  }
 }
 
 .programs__title {

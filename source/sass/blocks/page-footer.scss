@@ -6,3 +6,40 @@
 .page-footer__bottom {
   background-color: $footer-background-color;
 }
+
+.page-footer__map-image {
+  display: block;
+  border: none;
+  width: 100%;
+
+  @media (min-width: $tablet-width) {
+    height: 400px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 400px;
+  }
+}
+
+.page-footer__map {
+  @media (min-width: $desktop-width) {
+    position: relative;
+  }
+}
+
+.page-footer__bottom-wrapper {
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+  }
+}
