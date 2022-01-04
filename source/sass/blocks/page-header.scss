@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     width: 709px;
-    padding: 25px 29px 64px 29px;
+    padding: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -27,4 +27,13 @@
   display: flex;
   min-height: 65px;
   align-items: center;
+  width: 191px;
+
+  @media (min-width: $tablet-width) {
+    width: 174px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 202px;
+  }
 }

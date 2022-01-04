@@ -1,10 +1,27 @@
 .product-description {
   margin-bottom: 13px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 252px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .product-description__item {
+    display: flex;
+    justify-content: space-between;
+    width: 247px;
+  }
 }
 
 .product-description__feature {
   display: block;
-  width: 36px;
+
   margin-top: 0;
   margin-bottom: 2px;
 
