@@ -5,17 +5,21 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 252px;
     margin: 0;
     padding: 0;
   }
 }
 
-@media (min-width: $tablet-width) {
-  .product-description__item {
+.product-description__item {
+  @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 247px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 167px;
   }
 }
 
