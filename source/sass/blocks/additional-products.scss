@@ -1,3 +1,9 @@
+.additional-products {
+  @media (min-width: $desktop-width) {
+    margin-bottom: 86px;
+  }
+}
+
 .additional-products__title {
   margin-top: 0;
   margin-bottom: 36px;
@@ -24,6 +30,21 @@
       border: 2px solid $basic-green;
       transform: rotate(-0.17deg);
     }
+  }
+}
+
+.additional-products__wrapper {
+  position: relative;
+}
+
+.additional-products__inner {
+  @media (min-width: $tablet-width) {
+    padding: 26px 38px;
+    border: 1px solid $spacial-grey;
+  }
+
+  @media (min-width: $desktop-width) {
+    border: none;
   }
 }
 

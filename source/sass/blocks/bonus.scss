@@ -5,6 +5,17 @@
     url("../../img/slogan-background.svg"),
     url("../../img/bonus-product-background-image.png");
   background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    width: 707px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 244px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
 }
 
 .bonus__title {
