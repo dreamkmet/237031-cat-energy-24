@@ -1,6 +1,5 @@
 .form__fieldset {
   display: flex;
-  width: 280px;
   flex-direction: column;
   margin: 0;
   padding: 0;
@@ -9,6 +8,18 @@
   font-family: $accent-font;
 
   border: none;
+
+  @media (min-width: $desktop-width) {
+    width: 569px;
+  }
+}
+
+.form {
+  @media (min-width: $desktop-width) {
+    width: 1219px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .form__fieldset:nth-child(2) {
