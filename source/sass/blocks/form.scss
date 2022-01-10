@@ -14,16 +14,33 @@
   }
 }
 
+.form__container {
+  margin: 0 auto;
+  width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+
 .form__fieldset-wrap {
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
+    padding: 86px 65px 65px 68px;
   }
 
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 78px;
+    padding: 76px 110px 69px 111px;
   }
 }
 
@@ -87,6 +104,14 @@
   line-height: 26px;
   font-weight: 400;
   color: $basic-black;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 69px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+  }
 }
 
 .form__comment {
@@ -97,6 +122,14 @@
   line-height: 26px;
   font-weight: 400;
   color: $basic-black;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 69px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+  }
 }
 
 .form__button {
@@ -112,6 +145,14 @@
   text-transform: uppercase;
 
   background-color: $basic-green;
+
+  @media (min-width: $tablet-width) {
+    width: 282px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 568px;
+  }
 }
 
 .form__text {

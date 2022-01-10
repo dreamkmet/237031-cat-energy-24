@@ -12,13 +12,13 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 630px;
-    padding: 27px 41px 45px 20px;
+    width: 768px;
+    padding: 65px 55px 69px 73px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1440px;
-    padding: 73px 110px 69px 111px;
+    padding: 73px 112px 65px 110px;
   }
 }
 
