@@ -1,5 +1,9 @@
 .slogan {
   background-color: $basic-white;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 82px;
+  }
 }
 
 .slogan__container {
@@ -20,9 +24,16 @@
   background-image: url("../../img/slogan-background.svg"),
     url("../../img/slogan-image.png");
   background-repeat: no-repeat;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     background: none;
+    width: 709px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background: none;
+    width: 1220px;
   }
 }
 
@@ -30,15 +41,16 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    padding: 62px 237px 20px 117px;
+    padding: 62px 207px 20px 89px;
     margin-bottom: 180px;
+    width: 709px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 1335px;
+    width: 1220px;
   }
 }
 
@@ -110,7 +122,7 @@
 
   @media (min-width: $tablet-width) {
     position: absolute;
-    top: 320px;
-    left: 270px;
+    top: 315px;
+    left: 220px;
   }
 }
