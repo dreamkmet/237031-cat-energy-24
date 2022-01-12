@@ -6,15 +6,13 @@
 
 .live-example__wrapper {
   width: 280px;
-  padding: 25px 20px 40px 20px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     display: flex;
 
     flex-wrap: wrap;
-    width: 768px;
-    padding: 43px 30px 0 30px;
+    width: 708px;
   }
 
   @media (min-width: $desktop-width) {
@@ -22,8 +20,7 @@
     display: grid;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 1440px;
-    padding: 0 108px 0 110px;
+    width: 1220px;
   }
 }
 

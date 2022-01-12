@@ -7,20 +7,19 @@
 }
 
 .slogan__container {
-  width: 320px;
+  width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 728px;
+    width: 708px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1440px;
+    width: 1220px;
   }
 }
 
 .slogan__background {
-  padding: 27px 20px 20px 20px;
   background-image: url("../../img/slogan-background.svg"),
     url("../../img/slogan-image.png");
   background-repeat: no-repeat;
@@ -28,7 +27,7 @@
 
   @media (min-width: $tablet-width) {
     background: none;
-    width: 709px;
+    width: 708px;
   }
 
   @media (min-width: $desktop-width) {
@@ -41,22 +40,17 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    padding: 62px 207px 20px 89px;
     margin-bottom: 180px;
-    width: 709px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 1220px;
   }
 }
 
 .slogan__title {
-  display: flex;
-  justify-self: flex-start;
   margin-top: 0;
   margin-bottom: 25px;
 
@@ -64,17 +58,18 @@
   font-size: 36px;
   line-height: 36px;
   color: $basic-white;
+  text-align: center;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
     font-weight: 400;
     color: $basic-black;
+    text-align: left;
   }
 }
 
 .slogan__text {
-  display: flex;
   margin-bottom: 29px;
 
   font-family: $accent-font;
@@ -83,12 +78,14 @@
   font-weight: 400;
   text-transform: uppercase;
   color: $basic-white;
+  text-align: center;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
     font-weight: 400;
     color: $basic-black;
+    text-align: left;
   }
 }
 
