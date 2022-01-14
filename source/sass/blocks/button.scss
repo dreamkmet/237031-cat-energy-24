@@ -11,3 +11,15 @@
   border: none;
   cursor: pointer;
 }
+
+.button__container {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 523px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 829px;
+  }
+}

@@ -1,24 +1,15 @@
 .page-header {
   display: flex;
   flex-direction: column;
-  padding: 10px 20px 18px 20px;
   background-color: $basic-white;
 }
 
 .page-header__container {
   position: relative;
-  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
-    width: 728px;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    width: 1221px;
   }
 }
 
@@ -26,4 +17,13 @@
   display: flex;
   min-height: 65px;
   align-items: center;
+  width: 191px;
+
+  @media (min-width: $tablet-width) {
+    width: 174px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 202px;
+  }
 }

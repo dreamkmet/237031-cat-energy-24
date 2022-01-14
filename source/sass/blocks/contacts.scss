@@ -6,10 +6,6 @@
   }
 }
 
-.contacts__position {
-  position: relative;
-}
-
 .contacts__wrapper {
   justify-content: space-between;
   display: flex;
@@ -20,14 +16,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 768px;
-    padding: 60px 70px 63px 70px;
+    width: 707px;
+    padding: 56px 40px 55px 39px;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 112px;
+    left: 445px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
