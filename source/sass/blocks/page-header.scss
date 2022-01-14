@@ -6,20 +6,10 @@
 
 .page-header__container {
   position: relative;
-  margin: 0 auto;
-  padding: 10px 20px 18px 20px;
 
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
-    width: 709px;
-    padding: 0;
-  }
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
-    width: 1201px;
   }
 }
 

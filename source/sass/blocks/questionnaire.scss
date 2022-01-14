@@ -5,20 +5,10 @@
 }
 
 .questionnaire__container {
-  margin: 0 auto;
-  width: 320px;
-
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 768px;
-    padding: 65px 55px 69px 73px;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1440px;
-    padding: 73px 112px 65px 110px;
   }
 }
 

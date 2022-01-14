@@ -1,6 +1,4 @@
 .form__fieldset {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
   margin-bottom: 49px;
@@ -9,23 +7,14 @@
 
   border: none;
 
-  @media (min-width: $desktop-width) {
-    width: 569px;
-  }
-}
+  &--about-cat {
+    @media (min-width: $tablet-width) {
+      width: 630px;
+    }
 
-.form__container {
-  margin: 0 auto;
-  width: 320px;
-
-  @media (min-width: $tablet-width) {
-    width: 768px;
-    margin: 0 auto;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1440px;
-    margin: 0 auto;
+    @media (min-width: $desktop-width) {
+      width: 570px;
+    }
   }
 }
 
@@ -33,20 +22,17 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
-    padding: 86px 65px 65px 68px;
   }
 
   @media (min-width: $desktop-width) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 78px;
-    padding: 76px 110px 69px 111px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 .form {
   @media (min-width: $desktop-width) {
-    width: 1219px;
+    width: 1220px;
     display: flex;
     justify-content: space-between;
   }
@@ -57,6 +43,9 @@
 }
 
 .form__label {
+  display: grid;
+  grid-template-columns: 68px 219px;
+  width: 280px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -64,16 +53,15 @@
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
-    width: 632px;
+    width: 630px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 572px;
+    width: 569px;
   }
 }
 
 .form__input {
-  width: 228px;
   box-sizing: border-box;
   margin-bottom: 13px;
 
@@ -84,18 +72,6 @@
   text-transform: uppercase;
 }
 
-.form__label:nth-child(2) .form__input {
-  width: 226px;
-}
-
-.form__label:nth-child(3) .form__input {
-  width: 205px;
-}
-
-.form__label:nth-child(4) .form__input {
-  width: 171px;
-}
-
 .form__contacts {
   margin-bottom: 35px;
 
@@ -104,17 +80,10 @@
   line-height: 26px;
   font-weight: 400;
   color: $basic-black;
-
-  @media (min-width: $tablet-width) {
-    margin-left: 69px;
-  }
-
-  @media (min-width: $desktop-width) {
-    margin-left: 110px;
-  }
 }
 
 .form__comment {
+  width: 280px;
   margin-bottom: 37px;
 
   font-family: $accent-font;
@@ -124,11 +93,11 @@
   color: $basic-black;
 
   @media (min-width: $tablet-width) {
-    margin-left: 69px;
+    width: 631px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 110px;
+    width: 1220px;
   }
 }
 
